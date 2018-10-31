@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SVGParser'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Parse svg images with webView using Swift.'
 
 # This description is used to generate tags and improve search results.
