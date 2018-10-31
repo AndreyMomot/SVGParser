@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SVGParser_Example' do
+  pod 'SVGParser', :path => '../'
+
+  target 'SVGParser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
