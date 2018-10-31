@@ -1,0 +1,16 @@
+PODS:
+  - SVGParser (0.1.0)
+
+DEPENDENCIES:
+  - SVGParser (from `../`)
+
+EXTERNAL SOURCES:
+  SVGParser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SVGParser: 8fc3c507fa5163c6dfcd5f184a8dff5031bf3aae
+
+PODFILE CHECKSUM: cf6ae63c66cbc59b08acfef397db5761a19bdd89
+
+COCOAPODS: 1.5.3

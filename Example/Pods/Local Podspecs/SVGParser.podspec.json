@@ -1,0 +1,22 @@
+{
+  "name": "SVGParser",
+  "version": "0.1.0",
+  "summary": "A short description of SVGParser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AndreyMomot/SVGParser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AndreyMomot": "momot.a@dbbest.com"
+  },
+  "source": {
+    "git": "https://github.com/AndreyMomot/SVGParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SVGParser/Classes/**/*"
+}
