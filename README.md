@@ -22,7 +22,7 @@ pod 'SVGParser'
 
 ## Author
 
-AndreyMomot, momot.a@dbbest.com
+AndreyMomot, omg0mom@gmail.com
 
 ## License
 

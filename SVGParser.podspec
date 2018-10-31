@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Use this library to parse svg images with ios projects.
+Use this library to parse svg images for ios projects in bacground.
                        DESC
 
   s.homepage         = 'https://github.com/AndreyMomot/SVGParser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'AndreyMomot' => 'momot.a@dbbest.com' }
+  s.author           = { 'AndreyMomot' => 'omg0mom@gmail.com' }
   s.source           = { :git => 'https://github.com/AndreyMomot/SVGParser.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
