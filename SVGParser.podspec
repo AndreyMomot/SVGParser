@@ -30,7 +30,7 @@ Use this library to parse svg images for ios projects in bacground.
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
-  s.source_files = 'SVGParser/Classes/**/*'
+  s.source_files = 'SVGParser/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'SVGParser' => ['SVGParser/Assets/*.png']
