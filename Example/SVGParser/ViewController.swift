@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     @IBAction func parseButtonAction(_ sender: Any) {
         
+        // Load SVG from local path as Data
+        
         if let path = Bundle.main.path(forResource: "swift_logo", ofType: "svg") {
             if let nsData = NSData(contentsOfFile: path) {
                 parseSVG(nsData as Data) { image in
@@ -21,11 +23,17 @@ class ViewController: UIViewController {
                 }
             }
         }
+        
+        // Load SVG from local path
+        
         //        if let path = Bundle.main.path(forResource: "pin", ofType: "svg") {
         //            parseSVG(path) { image in
         //                self.imageView.image = image
         //            }
         //        }
+        
+        // Load SVG from remote URL
+
         //        if let url = URL(string: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg") {
         //            parseSVG(url) { image in
         //                self.imageView.image = image
