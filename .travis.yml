@@ -2,5 +2,5 @@ language: objective-c
 osx_image: xcode10.0
 podfile: Example/Podfile
 xcode_project: Example/SVGParser.xcodeproj
-xcode_scheme: SVGParser
+xcode_scheme: SVGParser-Example
 xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
