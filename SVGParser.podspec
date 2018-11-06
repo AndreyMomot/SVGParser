@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SVGParser'
   s.version          = '0.2.1'
-  s.summary          = 'Parse svg images with webView using Swift.'
+  s.summary          = 'Parse svg images with UIWebView using Swift asynchronously.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Use this library to parse svg images for ios projects in bacground.
+Use this library to parse SVG images for ios projects asynchronously.
                        DESC
 
   s.homepage         = 'https://github.com/AndreyMomot/SVGParser'

@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'SVGParser'
 ```
 
+For manual installation, you can add SVGParser.swift as a 3rd Party Library to your project and use it's method.
+
+## Usage
+Simply, import SVGParser to your class. Then use one of it's parsing method with completion. 
+
 ## Author
 
 AndreyMomot, omg0mom@gmail.com
