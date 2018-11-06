@@ -1,10 +1,6 @@
 language: objective-c  
 osx_image: xcode10.0
-podfile: /SVGParser/Example/Podfile
-before_install: [
-    "gem install cocoapods",
-    "pod install"
-  ]
+podfile: Example/Podfile
 xcode_project: SVGParser.xcworkspace
 xcode_scheme: SVGParser
 xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
