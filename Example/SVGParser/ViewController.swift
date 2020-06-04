@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVGParser
 
 class ViewController: UIViewController {
 

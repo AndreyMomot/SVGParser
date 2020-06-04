@@ -11,7 +11,7 @@ import JavaScriptCore
 
 public class SVGWebView: UIWebView {
     
-    public func dealloc() {
+    deinit {
         // Ref: http://www.codercowboy.com/code-uiwebview-memory-leak-prevention/
         stringByEvaluatingJavaScript(from: "document.body.innerHTML='';")
         loadHTMLString("", baseURL: nil)
